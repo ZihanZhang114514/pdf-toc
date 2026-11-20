@@ -1,0 +1,21 @@
+pdf-toc — a real table of contents for a PDF
+Copyright (C) 2026 ZihanZhang114514
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU Affero General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License along
+with this program.  If not, see <https://www.gnu.org/licenses/agpl-3.0.html>.
+
+Full licence text: https://www.gnu.org/licenses/agpl-3.0.txt
+
+------------------------------------------------------------------------------
+Why AGPL: this skill imports PyMuPDF (fitz), which is distributed under the
+GNU Affero General Public License v3.  Combining it with this code makes the
+combined work AGPL as well.  pypdf, used alongside it, is BSD-3-Clause.
