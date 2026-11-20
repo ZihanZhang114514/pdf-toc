@@ -148,7 +148,13 @@ def main() -> int:
             y += 16
         draw(page, font, LEFT, 800, f"第 {pno} 页 / page {pno}", 9, (0.5, 0.5, 0.5))
 
-    doc.save(PDF, garbage=3, deflate=True)
+    # Subset the CJK font: without this the whole 12 MB face is embedded twice
+    # and the demo dwarfs the skill it demonstrates.
+    try:
+        doc.subset_fonts()
+    except Exception:
+        pass
+    doc.save(PDF, garbage=4, deflate=True, clean=True)
     doc.close()
     print(f"wrote {PDF}")
 
