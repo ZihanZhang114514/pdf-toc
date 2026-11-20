@@ -1,0 +1,124 @@
+{
+  "title": "PDF 目录演示文档 / PDF Outline Demo",
+  "subject": "demo for the pdf-toc skill",
+  "page_offset": 0,
+  "items": [
+    {
+      "title": "特性",
+      "page": 1,
+      "level": 1,
+      "y": 151.0
+    },
+    {
+      "title": "应用",
+      "page": 1,
+      "level": 1,
+      "y": 225.0
+    },
+    {
+      "title": "概述",
+      "page": 3,
+      "level": 1,
+      "y": 77.0
+    },
+    {
+      "title": "技术规格",
+      "page": 4,
+      "level": 1,
+      "y": 77.0
+    },
+    {
+      "title": "时序规格",
+      "page": 4,
+      "level": 2,
+      "y": 156.8
+    },
+    {
+      "title": "工作原理",
+      "page": 5,
+      "level": 1,
+      "y": 77.0
+    },
+    {
+      "title": "模拟输入",
+      "page": 6,
+      "level": 2,
+      "y": 82.8
+    },
+    {
+      "title": "数字接口",
+      "page": 6,
+      "level": 1,
+      "y": 145.0
+    },
+    {
+      "title": "并行接口",
+      "page": 7,
+      "level": 2,
+      "y": 82.8
+    },
+    {
+      "title": "附录 A",
+      "page": 7,
+      "level": 1,
+      "y": 145.0
+    },
+    {
+      "title": "结束语",
+      "page": 8,
+      "level": 1,
+      "y": 77.0
+    }
+  ],
+  "toc_page": {
+    "page": 2,
+    "row_height": 15,
+    "columns": [
+      {
+        "x0": 70,
+        "x1": 300
+      },
+      {
+        "x0": 340,
+        "x1": 525
+      }
+    ],
+    "rows": [
+      {
+        "y": 128.4,
+        "targets": [
+          1,
+          5
+        ]
+      },
+      {
+        "y": 154.4,
+        "targets": [
+          1,
+          6
+        ]
+      },
+      {
+        "y": 180.4,
+        "targets": [
+          3,
+          6
+        ]
+      },
+      {
+        "y": 206.4,
+        "targets": [
+          4,
+          7
+        ]
+      },
+      {
+        "y": 232.4,
+        "targets": [
+          4,
+          7
+        ]
+      }
+    ]
+  }
+}
